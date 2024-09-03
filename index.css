@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(70, 53, 116);
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid black;
+  }
+  .entrada{
+    text-align: center;
+  }
+  input,button{
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  button{
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  h2{
+    text-align: center;
+  }
+  span{
+    padding: 10px;
+    border: 2px solid black;
+  }
+  .numeros{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+  }
+  section table td{
+    padding: 10px;
+    text-align: center;
+    border:2px solid snow;
+  }
+  .cartillas {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 40px;
+    padding: 10px; /* Agregar padding si es necesario */ /* Incluir el padding en el ancho total */
+}
+  .cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bolillas{
+    width: 60%;
+  }
+  input{
+    width: 50px;
+  }

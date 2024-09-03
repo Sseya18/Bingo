@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+  <header> <h1>BINGO</h1>
+  <nav>
+    <a>Que es</a>
+    <a>Como jugar</a>
+    <a>Empezar</a>
+  </nav>
+  </header>
+  <div class="entrada">
+    <input type="number" placeholder="Nro de bingo">
+  </div>
+<div>
+<button onclick="agregar()">+</button>
+<button onclick="quitar()">-</button>
+<button onclick="borrar()">Limpiar</button>
+</div>
+    <section class="bolillas">
+    <h2>Números</h2>
+    <p class="info">
+    </p>
+    <div class="numeros">
+    </div>
+  </section>
+  <section class="cartillas">
+    
+  </section>
+  <section class="acartilla">
+    <h2>Nueva Cartilla</h2>
+    <label>Nombre<input type="text"></label>
+    <table>
+        <tr>
+            <td><input type="number"></td> <td><input type="number"></td> <td><input type="number"></td>
+            <td><input type="number"></td> <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="number"></td> <td><input type="number"></td> <td><input type="number"></td>
+            <td><input type="number"></td> <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="number"></td> <td><input type="number"></td> <td><input type="number"></td>
+            <td><input type="number"></td> <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="number"></td> <td><input type="number"></td> <td><input type="number"></td>
+            <td><input type="number"></td> <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><input type="number"></td> <td><input type="number"></td> <td><input type="number"></td>
+            <td><input type="number"></td> <td><input type="number"></td>
+        </tr>
+    </table>
+    <button onclick="nuevo()">Agregar</button>
+</section>
+</body>
+</html>
